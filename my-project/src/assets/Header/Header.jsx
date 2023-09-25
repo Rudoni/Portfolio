@@ -24,12 +24,12 @@ const Header = () => {
     }, []);
 
     return (
-        <header className="main-header">
+        <header className="bg-white pt-4 pb-4">
             <nav>
-                <ul>
-                    <li className="bubble-item"><a href="#about">À PROPOS</a></li>
-                    <li className="bubble-item"><a href="#projects">PROJETS</a></li>
-                    <li className="bubble-item"><a href="#contact">CONTACT</a></li>
+                <ul className="text-brown text-2xl  flex justify-center items-start space-x-8" >
+                    <li className="bubble-item"><a href="/About">À PROPOS</a></li>
+                    <li className="bubble-item"><a href="/Projects">PROJETS</a></li>
+                    <li className="bubble-item"><a href="/Contact">CONTACT</a></li>
                 </ul>
             </nav>
         </header>

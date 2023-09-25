@@ -1,12 +1,13 @@
 
 import React from 'react';
-
+import Header from '../Header/Header';
 
 const About = () => {
     return (
         
         <section id="about">
-            <div className="about-container">
+            <Header />
+            <div className="bg-white">
                 <div className="about-section">
                     <h1>Études</h1>
                     <p>

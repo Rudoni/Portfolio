@@ -1,11 +1,12 @@
 // Projects.js
 import React from 'react';
-
+import Header from '../Header/Header';
 
 export const Projects = () => {
     return (
         <section id="projects">
-                <div className="project-container">
+            <Header />
+                <div className="bg-white">
                     <a href="https://github.com/Rudoni/Zeldiablo/tree/main" target="_blank" rel="noopener noreferrer" className="project-link">
                         <img src="/Zeldiablo.png" alt="Description Projet 1" className="project-image" />
                     </a>
