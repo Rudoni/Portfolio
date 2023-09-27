@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../Header/Header';
+import { Contact } from '../Contact/Contact';
 
 
 
@@ -36,6 +37,7 @@ const Presentation = () => {
                 <img src="/Antoninn.png" alt="" style={{ filter: 'drop-shadow(1vb 1vb 2vb #D9BC9A)' }} className="hidden md:block w-1/3 object-cover h-screen"/>
             
           </div>
+          <Contact />
         </div>
       );
 }
