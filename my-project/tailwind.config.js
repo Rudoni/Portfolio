@@ -11,6 +11,14 @@ export default {
         beige: '#D9BC9A',
         brown: '#593312',
         lightbrown: '#8C633F'
+      },
+      fontFamily: {
+        'pop': ['Poppins'],
+      },
+      fontSize: {
+        'size': '2.60rem',
+        'sizeheader': '1.2rem'
+        
       }
     },
   },
