@@ -19,9 +19,6 @@ export default {
         'size': '2.60rem',
         'sizeheader': '1.2rem'
         
-      },
-      height: {
-        'custom': '410px'
       }
     },
   },

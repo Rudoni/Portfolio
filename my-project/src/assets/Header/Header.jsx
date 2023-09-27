@@ -40,7 +40,7 @@ const Header = () => {
               <a href="/Projects">PROJETS</a>
             </li>
             <li className="p-4 hover:text-beige hover:scale-105 duration-150">
-              <a href="#contact">CONTACT</a>
+              <a href="/Contact">CONTACT</a>
             </li>
           </ul>
         </div>
