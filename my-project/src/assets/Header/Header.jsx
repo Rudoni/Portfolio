@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const location = useLocation();
@@ -29,15 +30,19 @@ const Header = () => {
             </svg>
           </a>
         ) : (
-          <div style={{ width: "2rem" }}></div>  
+          <div style={{ width: "2rem" }}></div>
         )}
         <div className="flex-grow flex justify-center items-center space-x-8">
           <ul className="text-brown font-pop text-sizeheader flex">
             <li className="p-4 hover:text-beige hover:scale-105 duration-150">
-              <a href="/About">À PROPOS</a>
+              <Link to="/About" relative="path">
+                À PROPOS
+              </Link>
             </li>
             <li className="p-4 hover:text-beige hover:scale-105 duration-150">
-              <a href="/Projects">PROJETS</a>
+              <Link to="/Projects" relative="path">
+                PROJECTS
+              </Link>
             </li>
             <li className="p-4 hover:text-beige hover:scale-105 duration-150">
               <a href="#contact">CONTACT</a>
